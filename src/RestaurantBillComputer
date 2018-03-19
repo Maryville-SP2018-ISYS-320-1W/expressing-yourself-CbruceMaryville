@@ -32,3 +32,11 @@ public class RestarauntBillComputer {
 
 }
 
+/*
+With a 15% tip with a bill of 20$ your total comes to:
+24.0
+With a 18% tip with a bill of 20$ your total comes to:
+24.6
+With a 20% tip with a bill of 20$ your total comes to:
+25.0
+*/
