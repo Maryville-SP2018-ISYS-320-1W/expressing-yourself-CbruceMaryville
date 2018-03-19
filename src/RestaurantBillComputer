@@ -1,0 +1,34 @@
+//Clayton Bruce
+//Extra Credit
+//3/18/2018
+
+public class RestarauntBillComputer {
+
+	public static void main(String[] args) {
+
+		
+		
+		double billCost = 20;
+		
+		double tipRate15 = .15;
+		double tipRate18 = .18;
+		double tipRate20 = .2;
+		
+		double taxRate = .05;
+		
+		
+		System.out.println("With a 15% tip with a bill of 20$ your total comes to:");
+		System.out.println(billCost+(billCost*tipRate15)+(billCost*taxRate));
+		
+		
+		System.out.println("With a 18% tip with a bill of 20$ your total comes to:");
+		System.out.println(billCost+(billCost*tipRate18)+(billCost*taxRate));
+		
+		System.out.println("With a 20% tip with a bill of 20$ your total comes to:");
+		System.out.println(billCost+(billCost*tipRate20)+(billCost*taxRate));
+		
+		
+	}
+
+}
+
